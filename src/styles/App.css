@@ -1,4 +1,23 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
+@font-face{
+    font-family: 'Circe-Regular';
+    src: local('Circe-Regular'), url(/src/fonts/Circe-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid .row .header{
+    font-family: 'Circe-Regular';
+    background: red;
+    padding: 20px;
+}
+.container-fluid .row .header .name-site{
+    display: block;
+    font-size: 20px;
+    width: 100%;
+}
+.container-fluid .row .header .description-site{
+    font-size: 14px;
 }

@@ -20,6 +20,7 @@
   "homepage": "https://github.com/kaman3/react-webpack-bable#readme",
   "devDependencies": {
     "@babel/core": "^7.7.5",
+    "@babel/plugin-transform-runtime": "^7.7.6",
     "@babel/preset-env": "^7.7.6",
     "@babel/preset-react": "^7.7.4",
     "babel-loader": "^8.0.6",
@@ -31,7 +32,10 @@
     "webpack-dev-server": "^3.9.0"
   },
   "dependencies": {
+    "@babel/runtime": "^7.7.6",
+    "bootstrap": "^4.4.1",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-router-dom": "^5.1.2"
   }
 }
